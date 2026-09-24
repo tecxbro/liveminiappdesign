@@ -1,0 +1,494 @@
+
+> grokbot-live-task-cards@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: HTTP create, read page and update round trip uses actual file store
+ok 1 - HTTP create, read page and update round trip uses actual file store
+  ---
+  duration_ms: 100.631221
+  type: 'test'
+  ...
+# Subtest: public health does not imply iMessage verification
+ok 2 - public health does not imply iMessage verification
+  ---
+  duration_ms: 13.314049
+  type: 'test'
+  ...
+# Subtest: publisher API rejects absent or view-only credentials
+ok 3 - publisher API rejects absent or view-only credentials
+  ---
+  duration_ms: 21.955975
+  type: 'test'
+  ...
+# Subtest: no button action or callback endpoint exists
+ok 4 - no button action or callback endpoint exists
+  ---
+  duration_ms: 27.65877
+  type: 'test'
+  ...
+# Subtest: private pages have no-store, no-referrer and restricted CSP
+ok 5 - private pages have no-store, no-referrer and restricted CSP
+  ---
+  duration_ms: 17.803492
+  type: 'test'
+  ...
+# Subtest: bad view token and wrong slot cannot read another card
+ok 6 - bad view token and wrong slot cannot read another card
+  ---
+  duration_ms: 15.920795
+  type: 'test'
+  ...
+# Subtest: private JSON view omits task/conversation and publisher credentials
+ok 7 - private JSON view omits task/conversation and publisher credentials
+  ---
+  duration_ms: 14.885541
+  type: 'test'
+  ...
+# Subtest: text injection is escaped in both HTML and JSON bootstrap
+ok 8 - text injection is escaped in both HTML and JSON bootstrap
+  ---
+  duration_ms: 9.65468
+  type: 'test'
+  ...
+# Subtest: reading a card cannot change revision or slot state
+ok 9 - reading a card cannot change revision or slot state
+  ---
+  duration_ms: 26.166954
+  type: 'test'
+  ...
+# Subtest: malformed JSON and oversized requests rejected
+ok 10 - malformed JSON and oversized requests rejected
+  ---
+  duration_ms: 6.37455
+  type: 'test'
+  ...
+# Subtest: Build Output API rewritten path is dispatched to the same router
+ok 11 - Build Output API rewritten path is dispatched to the same router
+  ---
+  duration_ms: 3.205875
+  type: 'test'
+  ...
+# Subtest: examples are optional and have no task side effects
+ok 12 - examples are optional and have no task side effects
+  ---
+  duration_ms: 14.300267
+  type: 'test'
+  ...
+# Subtest: valid research example
+ok 13 - valid research example
+  ---
+  duration_ms: 8.770032
+  type: 'test'
+  ...
+# Subtest: valid checks example
+ok 14 - valid checks example
+  ---
+  duration_ms: 1.139699
+  type: 'test'
+  ...
+# Subtest: valid stages example
+ok 15 - valid stages example
+  ---
+  duration_ms: 1.159106
+  type: 'test'
+  ...
+# Subtest: reject HTML/action/style contract extensions
+ok 16 - reject HTML/action/style contract extensions
+  ---
+  duration_ms: 6.69193
+  type: 'test'
+  ...
+# Subtest: unknown totals produce no invented fraction
+ok 17 - unknown totals produce no invented fraction
+  ---
+  duration_ms: 1.616423
+  type: 'test'
+  ...
+# Subtest: reject invalid counters and percentages
+ok 18 - reject invalid counters and percentages
+  ---
+  duration_ms: 3.203825
+  type: 'test'
+  ...
+# Subtest: four named stages do not imply 25 percent increments
+ok 19 - four named stages do not imply 25 percent increments
+  ---
+  duration_ms: 1.018635
+  type: 'test'
+  ...
+# Subtest: reject two active stages
+ok 20 - reject two active stages
+  ---
+  duration_ms: 7.410918
+  type: 'test'
+  ...
+# Subtest: reject contradictory complete-but-unsent stage state
+ok 21 - reject contradictory complete-but-unsent stage state
+  ---
+  duration_ms: 1.627043
+  type: 'test'
+  ...
+# Subtest: waiting uses a blocked marker rather than active working animation
+ok 22 - waiting uses a blocked marker rather than active working animation
+  ---
+  duration_ms: 2.842039
+  type: 'test'
+  ...
+# Subtest: stage IDs unique; label length bounded
+ok 23 - stage IDs unique; label length bounded
+  ---
+  duration_ms: 1.419378
+  type: 'test'
+  ...
+# Subtest: allow two to four stages with arbitrary valid labels
+ok 24 - allow two to four stages with arbitrary valid labels
+  ---
+  duration_ms: 4.200588
+  type: 'test'
+  ...
+# Subtest: title length and control characters bounded
+ok 25 - title length and control characters bounded
+  ---
+  duration_ms: 4.485895
+  type: 'test'
+  ...
+# Subtest: header assets are allowlisted, never arbitrary remote URLs
+ok 26 - header assets are allowlisted, never arbitrary remote URLs
+  ---
+  duration_ms: 1.266721
+  type: 'test'
+  ...
+# Subtest: create retains opaque original conversation ID
+ok 27 - create retains opaque original conversation ID
+  ---
+  duration_ms: 0.893079
+  type: 'test'
+  ...
+# Subtest: update requires exact integer revision
+ok 28 - update requires exact integer revision
+  ---
+  duration_ms: 1.080938
+  type: 'test'
+  ...
+# Subtest: empty slot registry has exactly ten names
+ok 29 - empty slot registry has exactly ten names
+  ---
+  duration_ms: 0.519356
+  type: 'test'
+  ...
+# Subtest: corrupt state does not reset silently
+ok 30 - corrupt state does not reset silently
+  ---
+  duration_ms: 0.196787
+  type: 'test'
+  ...
+# Subtest: production configuration refuses file persistence
+ok 31 - production configuration refuses file persistence
+  ---
+  duration_ms: 0.382569
+  type: 'test'
+  ...
+# Subtest: configuration requires distinct strong secrets
+ok 32 - configuration requires distinct strong secrets
+  ---
+  duration_ms: 0.240211
+  type: 'test'
+  ...
+# Subtest: no HTTP public production origin
+ok 33 - no HTTP public production origin
+  ---
+  duration_ms: 0.134959
+  type: 'test'
+  ...
+# Subtest: existing-runtime start/update sends once and edits original object
+ok 34 - existing-runtime start/update sends once and edits original object
+  ---
+  duration_ms: 109.431795
+  type: 'test'
+  ...
+# Subtest: successful edit returning undefined is not interpreted as send failure
+ok 35 - successful edit returning undefined is not interpreted as send failure
+  ---
+  duration_ms: 52.146602
+  type: 'test'
+  ...
+# Subtest: repeat sync does not resend already presented revision
+ok 36 - repeat sync does not resend already presented revision
+  ---
+  duration_ms: 19.451706
+  type: 'test'
+  ...
+# Subtest: confirmed terminal update releases slot and leaves original final page
+ok 37 - confirmed terminal update releases slot and leaves original final page
+  ---
+  duration_ms: 35.370591
+  type: 'test'
+  ...
+# Subtest: missing original session after restart blocks updates without replacement send
+ok 38 - missing original session after restart blocks updates without replacement send
+  ---
+  duration_ms: 25.837136
+  type: 'test'
+  ...
+# Subtest: wrong conversation rejects before a provider send or record creation
+ok 39 - wrong conversation rejects before a provider send or record creation
+  ---
+  duration_ms: 1.753577
+  type: 'test'
+  ...
+# Subtest: provider failure becomes unknown and is not auto retried
+ok 40 - provider failure becomes unknown and is not auto retried
+  ---
+  duration_ms: 15.784897
+  type: 'test'
+  ...
+# Subtest: lost acknowledgment returns reconciliation data, not another SDK send
+ok 41 - lost acknowledgment returns reconciliation data, not another SDK send
+  ---
+  duration_ms: 12.848117
+  type: 'test'
+  ...
+# Subtest: terminal release clears optional uptime-only target mapping
+ok 42 - terminal release clears optional uptime-only target mapping
+  ---
+  duration_ms: 25.783868
+  type: 'test'
+  ...
+# Subtest: Redis REST adapter uses one atomic EVAL rather than plain SET
+ok 43 - Redis REST adapter uses one atomic EVAL rather than plain SET
+  ---
+  duration_ms: 20.418401
+  type: 'test'
+  ...
+# Subtest: CAS retry resolves concurrent updates without lost slots
+ok 44 - CAS retry resolves concurrent updates without lost slots
+  ---
+  duration_ms: 37.076541
+  type: 'test'
+  ...
+# Subtest: storage/network failure remains an error, not a fresh empty pool
+ok 45 - storage/network failure remains an error, not a fresh empty pool
+  ---
+  duration_ms: 1.588488
+  type: 'test'
+  ...
+# Subtest: upstream error body cannot be mistaken for success
+ok 46 - upstream error body cannot be mistaken for success
+  ---
+  duration_ms: 1.219281
+  type: 'test'
+  ...
+# Subtest: conflicts exhaust a bounded retry budget
+ok 47 - conflicts exhaust a bounded retry budget
+  ---
+  duration_ms: 22.705134
+  type: 'test'
+  ...
+# Subtest: 27 of 50 is exactly 27 filled dots and 23 pending dots
+ok 48 - 27 of 50 is exactly 27 filled dots and 23 pending dots
+  ---
+  duration_ms: 0.951119
+  type: 'test'
+  ...
+# Subtest: large batch uses bounded proportional dot display
+ok 49 - large batch uses bounded proportional dot display
+  ---
+  duration_ms: 0.214775
+  type: 'test'
+  ...
+# Subtest: 74 percent is seven full segments, one 40 percent segment, two empty
+ok 50 - 74 percent is seven full segments, one 40 percent segment, two empty
+  ---
+  duration_ms: 0.213091
+  type: 'test'
+  ...
+# Subtest: stage tracker does not show an invented percent
+ok 51 - stage tracker does not show an invented percent
+  ---
+  duration_ms: 6.372296
+  type: 'test'
+  ...
+# Subtest: unknown progress falls back to stages instead of 0 or fake 60 percent
+ok 52 - unknown progress falls back to stages instead of 0 or fake 60 percent
+  ---
+  duration_ms: 1.529376
+  type: 'test'
+  ...
+# Subtest: completed and waiting states have no working activity ring
+ok 53 - completed and waiting states have no working activity ring
+  ---
+  duration_ms: 2.079441
+  type: 'test'
+  ...
+# Subtest: layout contains no controls or external assets
+ok 54 - layout contains no controls or external assets
+  ---
+  duration_ms: 4.219323
+  type: 'test'
+  ...
+# Subtest: code palette contains only approved flat navy, white and gray tokens
+ok 55 - code palette contains only approved flat navy, white and gray tokens
+  ---
+  duration_ms: 1.833986
+  type: 'test'
+  ...
+# Subtest: header disabled produces no blank image strip
+ok 56 - header disabled produces no blank image strip
+  ---
+  duration_ms: 1.355967
+  type: 'test'
+  ...
+# Subtest: text stays text, not script or HTML
+ok 57 - text stays text, not script or HTML
+  ---
+  duration_ms: 1.651522
+  type: 'test'
+  ...
+# Subtest: concurrent creates claim at most ten distinct slots
+ok 58 - concurrent creates claim at most ten distinct slots
+  ---
+  duration_ms: 76.069778
+  type: 'test'
+  ...
+# Subtest: identical create retries return one identity
+ok 59 - identical create retries return one identity
+  ---
+  duration_ms: 26.768927
+  type: 'test'
+  ...
+# Subtest: conflicting create idempotency key is rejected
+ok 60 - conflicting create idempotency key is rejected
+  ---
+  duration_ms: 8.063141
+  type: 'test'
+  ...
+# Subtest: same task cannot get another retained card
+ok 61 - same task cannot get another retained card
+  ---
+  duration_ms: 7.612019
+  type: 'test'
+  ...
+# Subtest: update changes data and revision, not identity or slot
+ok 62 - update changes data and revision, not identity or slot
+  ---
+  duration_ms: 15.201269
+  type: 'test'
+  ...
+# Subtest: stale updates cannot overwrite new progress
+ok 63 - stale updates cannot overwrite new progress
+  ---
+  duration_ms: 7.176073
+  type: 'test'
+  ...
+# Subtest: retry after an update response is lost is idempotent
+ok 64 - retry after an update response is lost is idempotent
+  ---
+  duration_ms: 7.535139
+  type: 'test'
+  ...
+# Subtest: presentation claims serialize same-card provider operations
+ok 65 - presentation claims serialize same-card provider operations
+  ---
+  duration_ms: 17.555205
+  type: 'test'
+  ...
+# Subtest: data mutation blocked during provider presentation
+ok 66 - data mutation blocked during provider presentation
+  ---
+  duration_ms: 5.036159
+  type: 'test'
+  ...
+# Subtest: unknown outcomes retain occupancy and cannot be resent
+ok 67 - unknown outcomes retain occupancy and cannot be resent
+  ---
+  duration_ms: 8.595431
+  type: 'test'
+  ...
+# Subtest: unknown can be explicitly reconciled with actual message reference
+ok 68 - unknown can be explicitly reconciled with actual message reference
+  ---
+  duration_ms: 7.829623
+  type: 'test'
+  ...
+# Subtest: accepted settlement retries do not create new references
+ok 69 - accepted settlement retries do not create new references
+  ---
+  duration_ms: 6.5686
+  type: 'test'
+  ...
+# Subtest: wrong attempt ID and changed update message IDs rejected
+ok 70 - wrong attempt ID and changed update message IDs rejected
+  ---
+  duration_ms: 14.798913
+  type: 'test'
+  ...
+# Subtest: release requires final state AND accepted final presentation
+ok 71 - release requires final state AND accepted final presentation
+  ---
+  duration_ms: 12.457885
+  type: 'test'
+  ...
+# Subtest: old URL remains bound to old card after slot reuse
+ok 72 - old URL remains bound to old card after slot reuse
+  ---
+  duration_ms: 10.694098
+  type: 'test'
+  ...
+# Subtest: archived and terminal cards reject late worker changes
+ok 73 - archived and terminal cards reject late worker changes
+  ---
+  duration_ms: 10.852304
+  type: 'test'
+  ...
+# Subtest: restart preserves slots, progress and unresolved claims
+ok 74 - restart preserves slots, progress and unresolved claims
+  ---
+  duration_ms: 4.711006
+  type: 'test'
+  ...
+# Subtest: only unsent, unambiguous draft can be discarded
+ok 75 - only unsent, unambiguous draft can be discarded
+  ---
+  duration_ms: 4.502054
+  type: 'test'
+  ...
+# Subtest: read token is scoped to exact card and slot
+ok 76 - read token is scoped to exact card and slot
+  ---
+  duration_ms: 3.148009
+  type: 'test'
+  ...
+# Subtest: public view omits internal identities and delivery/session state
+ok 77 - public view omits internal identities and delivery/session state
+  ---
+  duration_ms: 2.738949
+  type: 'test'
+  ...
+# Subtest: archive read expiry does not release active tasks by elapsed time
+ok 78 - archive read expiry does not release active tasks by elapsed time
+  ---
+  duration_ms: 11.571123
+  type: 'test'
+  ...
+# Subtest: corrupt file rejected without overwrite
+ok 79 - corrupt file rejected without overwrite
+  ---
+  duration_ms: 2.162015
+  type: 'test'
+  ...
+# Subtest: stale local lock fails closed instead of stealing ownership
+ok 80 - stale local lock fails closed instead of stealing ownership
+  ---
+  duration_ms: 25.663361
+  type: 'test'
+  ...
+1..80
+# tests 80
+# suites 0
+# pass 80
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 759.833977

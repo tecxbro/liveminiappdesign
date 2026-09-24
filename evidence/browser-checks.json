@@ -1,0 +1,180 @@
+{
+  "layout": [
+    {
+      "template": "research",
+      "viewport": [
+        300,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "template": "checks",
+      "viewport": [
+        300,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "template": "stages",
+      "viewport": [
+        300,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "template": "waiting",
+      "viewport": [
+        300,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "template": "complete",
+      "viewport": [
+        300,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "template": "unknown",
+      "viewport": [
+        300,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "template": "research",
+      "viewport": [
+        300,
+        300
+      ],
+      "pass": true
+    },
+    {
+      "template": "checks",
+      "viewport": [
+        300,
+        300
+      ],
+      "pass": true
+    },
+    {
+      "template": "stages",
+      "viewport": [
+        300,
+        300
+      ],
+      "pass": true
+    },
+    {
+      "template": "waiting",
+      "viewport": [
+        300,
+        300
+      ],
+      "pass": true
+    },
+    {
+      "template": "complete",
+      "viewport": [
+        300,
+        300
+      ],
+      "pass": true
+    },
+    {
+      "template": "unknown",
+      "viewport": [
+        300,
+        300
+      ],
+      "pass": true
+    },
+    {
+      "template": "research",
+      "viewport": [
+        390,
+        390
+      ],
+      "pass": true
+    },
+    {
+      "template": "checks",
+      "viewport": [
+        390,
+        390
+      ],
+      "pass": true
+    },
+    {
+      "template": "stages",
+      "viewport": [
+        390,
+        390
+      ],
+      "pass": true
+    },
+    {
+      "template": "waiting",
+      "viewport": [
+        390,
+        390
+      ],
+      "pass": true
+    },
+    {
+      "template": "complete",
+      "viewport": [
+        390,
+        390
+      ],
+      "pass": true
+    },
+    {
+      "template": "unknown",
+      "viewport": [
+        390,
+        390
+      ],
+      "pass": true
+    }
+  ],
+  "client": [
+    {
+      "check": "new revision updates text and exact dot count",
+      "pass": true
+    },
+    {
+      "check": "read request uses only read capability",
+      "pass": true
+    },
+    {
+      "check": "older response cannot regress progress",
+      "pass": true
+    },
+    {
+      "check": "network failure means delayed updates, not task failure",
+      "pass": true
+    },
+    {
+      "check": "final state uses read-only completion view",
+      "pass": true
+    },
+    {
+      "check": "reduced motion suppresses indeterminate animation",
+      "pass": true
+    }
+  ],
+  "notes": [
+    "Offline browser layout; shipped assets inlined without visual modification.",
+    "Client code evaluated with synthetic capability/query and stubbed fetch; no external network.",
+    "No iMessage or hosted Redis verification."
+  ],
+  "browser": "144.0.7559.96"
+}

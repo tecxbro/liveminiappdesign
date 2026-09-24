@@ -1,0 +1,5 @@
+
+> grokbot-live-task-cards@1.0.0 check
+> node scripts/check.mjs
+
+Checked 26 JavaScript modules and all three example payloads.
